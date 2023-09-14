@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping website</title>
+
+    <!-- Code for font awesome cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Code for font awesome cdn -->
+
+    <!-- Code for linking css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Code for linking css file -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- header section -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fa fa-shopping-basket"></i> Shopping
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="./product.html/products.html">products</a>
+        <a href="#review">review</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+        <!-- <a href="./products.html/">Our Products</a> -->
+      </div>
+
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here....." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <!-- First product in cart -->
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img
+            src="image/girls-Lehenga Choli Set/yellow Lehenga Choli Set2.jpg"
+            alt="This is an image"
+          />
+          <div class="content">
+            <h3>Lehenga Choli Set</h3>
+            <span class="price"> $10.99/- </span>
+            <span class="quantity"> Qty : 1 </span>
+          </div>
+        </div>
+
+        <!-- Second product in cart -->
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="image/flowers/flowers.jpg" alt="This is an image" />
+          <div class="content">
+            <h3>Flower pot</h3>
+            <span class="price"> $7.99/- </span>
+            <span class="quantity"> Qty : 2 </span>
+          </div>
+        </div>
+
+        <!-- Third product in cart -->
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img
+            src="image/watches/watchforwomen/watch1.jpg"
+            alt="This is an image"
+          />
+          <div class="content">
+            <h3>Women Watch</h3>
+            <span class="price"> $12.99/- </span>
+            <span class="quantity"> Qty : 1 </span>
+          </div>
+        </div>
+
+        <div class="total">Total : $31.97/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+      <!-- section for login page -->
+
+      <form action="#" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="Enter your email" class="box" />
+        <input type="password" placeholder="Enter your password" class="box" />
+
+        <p>Forgot your password <a href="#">Click Here</a></p>
+
+        <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+        <input type="submit" value="Login Now" class="btn" />
+      </form>
+
+      <!-- section for login page -->
+    </header>
+
+    <!-- header section -->
+
+    <!-- banner section -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Offers On</h3>
+        <p>
+          Always have New arrivals with major discount.Get buy one get one free
+          on Festival special Offers,shop more than $50 to get extra 20%
+          discount
+        </p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- banner section -->
+
+    <!-- our feature section -->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./image/feature/image1.jpg" alt="This is an image" />
+          <h3>New arrivals</h3>
+          <p>Our platform have new arrivals in more discount</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="./image/feature/image2.webp" alt="This is an image" />
+          <h3>Free Delivery</h3>
+          <p>Our platform Provides free Delivery to every customer</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="./image/feature/image3.webp" alt="This is an image" />
+          <h3>Easy Payment</h3>
+          <p>
+            You can Pay online or offline both the options are available on Our
+            platform
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- our feature section -->
+
+    <!-- review section -->
+
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span>Review</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg2.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg3.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg7.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg6.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg8.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img
+              src="./image/randomimg/randomimg5.jpg"
+              alt="This is an image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              minus enim quae culpa!
+            </p>
+            <h3>John lano</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Shopping <i class="fa fa-shopping-basket"></i></h3>
+          <p>
+            Our online shopping gives us an idea of the availability of
+            everything online at a cost of our data.
+          </p>
+          <div class="share">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#" class="fa fa-links"
+            ><i class="fa fa-phone"></i>(+91) 96878 38493</a
+          >
+          <a href="#" class="fa fa-links"
+            ><i class="fa fa-phone"></i>(+91) 93648 87947</a
+          >
+          <a href="#" class="fa fa-links"
+            ><i class="fa fa-envelope"></i>email_name@mail.com</a
+          >
+          <a href="#" class="fa fa-links"
+            ><i class="fa fa-map-marker"></i>Pune,India</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#" class="fa fa-arrow-right"
+            ><i class="fa fa-phone"></i>Home</a
+          >
+          <a href="#" class="fa fa-arrow-right"
+            ><i class="fa fa-phone"></i>features</a
+          >
+          <a href="#" class="fa fa-arrow-right"
+            ><i class="fa fa-envelope"></i>products</a
+          >
+          <a href="#" class="fa fa-arrow-right"
+            ><i class="fa fa-map-marker"></i>categories</a
+          >
+          <a href="#" class="fa fa-arrow-right"
+            ><i class="fa fa-map-marker"></i>Blogs</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>News Letter</h3>
+          <p>Online shopping is a modern and flexible way of buying goods.</p>
+          <input type="email" placeholder="Enter your email" class="email" />
+          <input type="submit" value="Subscribe" class="btn" />
+          <img
+            src="./image/footer/creditcardsimg.png"
+            alt="This is an image"
+            class="Payment-img"
+          />
+        </div>
+      </div>
+
+      <div class="credit">
+        Created by <span> Cyber Warriors </span> | All Rights Reserved
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
